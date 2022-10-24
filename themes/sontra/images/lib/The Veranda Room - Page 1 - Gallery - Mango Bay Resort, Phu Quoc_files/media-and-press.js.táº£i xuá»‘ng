@@ -1,0 +1,56 @@
+$(document).ready(function() {
+
+    //$(".dropdown-menu > li > a.trigger").on("click",function(e){
+    //    console.log('1');
+    //    var current=$(this).next();
+    //    var grandparent=$(this).parent().parent();
+    //    if($(this).hasClass('left-caret')||$(this).hasClass('right-caret'))
+    //        $(this).toggleClass('right-caret left-caret');
+    //    grandparent.find('.left-caret').not(this).toggleClass('right-caret left-caret');
+    //    //grandparent.find(".sub-menu:visible").not(current).hide();
+    //    current.toggle();
+    //    e.stopPropagation();
+    //});
+    //$(".dropdown-menu > li > a:not(.trigger)").on("click",function(){
+    //    console.log('2');
+    //    var root=$(this).closest('.dropdown');
+    //    root.find('.left-caret').toggleClass('right-caret left-caret');
+    //    //root.find('.sub-menu:visible').hide();
+    //});
+
+
+    //$('.left-menu .dropdown').hover(function(){
+    //    $(this).addClass('open');
+    //}, function(){
+    //    $(this).removeClass('open');
+    //});
+    //$(".dropdown-menu > li > a.trigger").hover(function(e){
+    //    var current=$(this).next();
+    //    var grandparent=$(this).parent().parent();
+    //    if($(this).hasClass('left-caret')||$(this).hasClass('right-caret'))
+    //        $(this).toggleClass('right-caret left-caret');
+    //    grandparent.find('.left-caret').not(this).toggleClass('right-caret left-caret');
+    //    current.toggle();
+    //    e.stopPropagation();
+    //});
+
+    if($('#media-and-press').hasClass('has-video')){
+        var i;
+        for(var i=1; i< 3; i++) {
+            var playerInstance = jwplayer('media-video-'+i).setup({
+                image: $('#media-video-'+i).data('image'),
+                file: "//youtu.be/s9Chty9_gXg",
+                aspectratio: "16:9",
+                width: '100%',
+                html5player: '/lib/jwplayer/jwplayer.html5.js'
+            });
+            playerInstance.onPlay(function() {
+                dataLayer.push({
+                    'event': 'GAevent',
+                    'eventCategory': 'Video',
+                    'eventAction': 'Play'
+                });
+            });
+        };
+    }
+});

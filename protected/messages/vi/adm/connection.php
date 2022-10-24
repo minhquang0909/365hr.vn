@@ -1,0 +1,27 @@
+<?php
+    return array(
+        'manage_connection'        => 'Quản lý kết nối',
+        'manage_connection_cp'     => 'Quản lý kết nối CP',
+        'manage_connection_method' => 'Quản lý phương thức kết nối',
+        'manage_connection_param'  => 'Quản lý tham số kết nối',
+        'manage_connection_type'   => 'Quản lý kiểu kết nối',
+        'create_connection_type'   => 'Thêm kiểu kết nối',
+        'create_type_cp'           => 'Thêm loại kết nối',
+        'type_code'                => 'Mã loại kết nối',
+        'description'              => 'Miêu tả',
+        'view_conn_type'           => 'Hiển thị',
+        'method_description'       => 'Miêu tả phương thức',
+        'cp_method'                => 'Phương thức CP',
+        'cp_code'                  => 'Mã CP',
+        'method_code'              => 'Mã Phương thức',
+        'type_code'                => 'Loại kết nối',
+        'ip_address'               => 'Địa chi IP',
+        'params'                   => 'Tham số đầu vào',
+        'params_response'          => 'Tham số đầu ra',
+        'create_conn_cp'           => 'Thêm mới kết nối đến CP',
+        'listcp'                   => 'Danh sách CP',
+        'status_code'              => 'Trạng thái',
+        'priority'                 => 'Sắp xếp',
+        'url'                      => 'Url',
+    );
+?>

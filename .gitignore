@@ -1,0 +1,165 @@
+# Env
+/.env
+
+# composer
+composer.phar
+## remove in production!
+composer.lock
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+#DB file
+#daohai.sql
+# windows thumbnail cache
+Thumbs.db
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+
+#runtime
+/protected/web/runtime/
+/protected/web/runtime/*/
+/protected/adm/runtime/*/
+/protected/adm/runtime/
+#assets
+/assets/
+/assets/*/
+/adm/assets/*/
+/adm/assets/
+/contentsettings/assets/*
+/dba/*
+
+#uploads
+#/uploads/images/
+#/uploads/images/*/
+#/uploads/news/categories/
+#/uploads/news/categories/*/
+#/uploads/news/images/
+#/uploads/news/images/*/
+#/uploads/news/thumbnails/
+#/uploads/news/thumbnails/*/
+#/uploads/pages/
+#/uploads/pages/*/
+#/uploads/products/gadget/
+#/uploads/products/gadget/*/
+#/uploads/products/gallery/
+#/uploads/products/gallery/*/
+#/uploads/products/
+#/uploads/products/*/
+#/uploads/slider/
+#/uploads/slider/*/
+
+uploads/images/.htaccess
+uploads/news/images/1 THÆ¯ NGá»ŒT NGÃ€O.jpg
+uploads/news/images/1 THƯ NGỌT NGÀO.jpg
+uploads/news/images/1(3233).jpg
+uploads/news/images/11-low.jpg
+uploads/news/images/1474872284_dinh-cau-phu-quoc.jpg
+uploads/news/images/3=2.png
+uploads/news/images/3K4A6385.jpg
+uploads/news/images/3K4A6390.jpg
+uploads/news/images/3K4A6398.jpg
+uploads/news/images/3K4A6443.jpg
+uploads/news/images/3K4A6452.jpg
+uploads/news/images/3K4A6474.jpg
+uploads/news/images/3K4A6480.jpg
+uploads/news/images/8.JPG
+uploads/news/images/9-bot-sua-chua-yoyo-frozenyogurt-powder.jpg
+uploads/news/images/_DSC7309-1.jpg
+uploads/news/images/_DSC9436-1.jpg
+uploads/news/images/_DSC9446-1.jpg
+uploads/news/images/_DSC9455_2-1-1.jpg
+uploads/news/images/at_ho-tieu-phu-quoc_3a9e00940d5564509878e3301fdd6d84.jpg
+uploads/news/images/at_ho-tieu-phu-quoc_7af3de55e3d83b19cde874c0b735b4e2.jpg
+uploads/news/images/at_lang-chai-ham-ninh_a5ddd58271286243087de6c58e312895.jpg
+uploads/news/images/at_suoi-tranh-o-phu-quoc_f298f0fbdfa4034d23a53d5d1bfb8826.jpg
+uploads/news/images/bai-ong-lang-phu-quoc.jpg
+uploads/news/images/bai-sao-phu-quoc (1).jpg
+uploads/news/images/bai-sao-phu-quoc.jpg
+uploads/news/images/ban-do-du-lich-phu-quoc-moi-nhat.jpg
+uploads/news/images/ban-do-phu-quoc-nkht.jpg
+uploads/news/images/banana choco.jpg
+uploads/news/images/bbb.jpg
+uploads/news/images/Bup.jpg
+uploads/news/images/bánh cnah.jpg
+uploads/news/images/bánh ngotrh.jpg
+uploads/news/images/BÁNH11.jpg
+uploads/news/images/bún quqys.jpg
+uploads/news/images/bún.jpg
+uploads/news/images/Capture.JPG
+uploads/news/images/chao_dau_den_phu_quoc_0.jpg
+uploads/news/images/Cho-khach-vo-vuon-ngam-cay-be-trai-1.jpg
+uploads/news/images/cho-phu-quoc-221030.jpg
+uploads/news/images/cho-phu-quoc-nhay-vuot-chuong-ngai-vat.jpg
+uploads/news/images/chua-ho-quoc-o-phu-quoc-1-700x467.jpg
+uploads/news/images/Coktail.jpg
+uploads/news/images/Cây dừa.jpg
+uploads/news/images/Còi-chôm-chôm2.jpg
+uploads/news/images/dam-da-huong-vi-nuoc-mam-phu-quoc-600x450.jpg
+uploads/news/images/Dao-khi-diem-den-danh-cho-cac-ban-thich-du-lich-sinh-thai-bien-dao-12-2-800x600.jpg
+uploads/news/images/dasdas1.jpg
+uploads/news/images/dat-ve-may-bay-vietnam-airline-gia-re-di-da-nang-tai-dulichdaiduong-vn-1.jpg
+uploads/news/images/deluexe suite (3).jpg
+uploads/news/images/Deluxe Suite - 104.jpg
+uploads/news/images/di-dau-choi-gi-buoi-dem-tai-phu-quoc.jpg
+uploads/news/images/DJI_0020.jpg
+uploads/news/images/DJI_0423.jpg
+uploads/news/images/DP3A0353.jpg
+uploads/news/images/drinks.jpg
+uploads/news/images/DSC01604.jpg
+uploads/news/images/DSC04475.jpg
+uploads/news/images/DSC04677 (1).jpg
+uploads/news/images/DSC0941.jpg
+uploads/news/images/du-lich-phu-quoc-Mui-ganh-dau-litcheetravel_com_vn.jpg
+uploads/news/images/famous-phu-quoc-night-market.jpg
+uploads/news/images/Frapuchinio.jpg
+uploads/news/images/happy-new-lunar.jpg
+uploads/news/images/hill top.jpg
+uploads/news/images/Ho boi.jpg
+uploads/news/images/hoc-mo-quan-my-lan-resort.jpg
+uploads/news/images/hon-may-rut-phu-quoc-1.png
+uploads/news/images/hon-mong-tay-phu-quoc.jpg
+uploads/news/images/HOTEL OVER POOLSIDE.jpg
+uploads/news/images/Hình 1.jpg
+uploads/news/images/Hình ảnh.jpg
+uploads/news/images/HỒ BƠI.jpg
+uploads/news/images/image (3).png
+uploads/news/images/image (9).jpg
+uploads/news/images/maxresdefault.jpg
+uploads/news/images/Mốc teo.jpg
+uploads/news/images/n.jpg
+uploads/news/images/namaste-phu-quoc(2).jpg
+uploads/news/images/NGỌC BÍCH.jpg
+uploads/news/images/nha-tu-phu-quoc.jpg
+uploads/news/images/nhung-mon-an-hap-dan-nen-nem-thu-o-phu-quoc-goi-ca-trich.jpg
+uploads/news/images/san thuong.jpg
+uploads/news/images/Screenshot (1).png
+uploads/news/images/shi.jpg
+uploads/news/images/showroom-ng-c-trai-l.jpg
+uploads/news/images/son tra.jpg
+uploads/news/images/song xanh.JPG
+uploads/news/images/sunset.jpg
+uploads/news/images/suon-heo-nuong-BBQ.jpg
+uploads/news/images/sup (2).jpg
+uploads/news/images/Sữa chua.jpg
+uploads/news/images/tau72018-670x300.png
+uploads/news/images/taucaotoc-e1529576333501.jpg
+uploads/news/images/thi-tran-duong-dong.jpg
+uploads/news/images/thợ-tách-ngọc-trai.jpg
+uploads/news/images/tour-cau-muc-dem-phu-quoc-litcheetravel_com_vn-.jpg
+uploads/news/images/tải xuống (1).jpg
+uploads/news/images/tải xuống.jpg
+uploads/news/images/uong an.jpg
+uploads/news/images/uống.jpg
+uploads/news/images/ve-dep-bai-khem-phu-quoc.jpg
+uploads/news/images/Xích đu.jpg

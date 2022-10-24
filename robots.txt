@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# XML-SITEMAP-PLUGIN
+https://izinzai.com/sitemap.xml

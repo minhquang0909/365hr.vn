@@ -1,0 +1,1 @@
+<p>Welcometo Admin <?=Yii::app()->name?></p>
